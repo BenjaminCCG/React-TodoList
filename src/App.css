@@ -1,0 +1,75 @@
+html,
+body {
+    height: 100%;
+    background-color: #CDCDCD;
+}
+
+header {
+    height: 50px;
+    line-height: 50px;
+    background-color: #000;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container h1 {
+    color: #ddd;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header .container input {
+    width: 300px;
+    padding: 5px 0 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.45) inset;
+}
+
+.content h2 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #000;
+}
+
+.content ul li {
+    background-color: #fff;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.content ul li input {
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.content ul span,
+.content ul a {
+    vertical-align: middle;
+}
+
+.content ul a {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 10px;
+}
